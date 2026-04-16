@@ -1,0 +1,7 @@
+[server]
+host = "127.0.0.1"
+port = 8420
+data_root = "/tmp/parqcast"
+
+[auth]
+api_key = "pqt-demo-key-2026-do-not-use-in-prod"

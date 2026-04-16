@@ -1,0 +1,21 @@
+[project]
+name = "parqcast-server"
+version = "0.1.0"
+description = "HTTP parquet receiver with UUID-split tree storage and API key auth"
+authors = [
+    { name = "DataStruct s.r.o.", email = "info@datastruct.tech" },
+]
+requires-python = "==3.12.3"
+license = "Apache-2.0"
+dependencies = [
+    "parqcast-core>=0.1.0",
+    "fastapi>=0.115",
+    "uvicorn>=0.34",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/parqcast"]
