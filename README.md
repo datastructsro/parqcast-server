@@ -65,6 +65,15 @@ Environment variables override the config file:
 
 All endpoints except `/health`, `/docs`, and `/openapi.json` require an `X-API-Key` header when authentication is enabled.
 
+## About
+
+Built and maintained by **[DataStruct s.r.o.](https://datastruct.tech)** — an **[Odoo Official Partner](https://www.odoo.com/partners)** based in the Czech Republic, specialising in demand forecasting and ERP implementation for manufacturing, retail, and logistics in the Czech–German–Polish triangle.
+
+- **See it in production:** [SAP→Odoo migration, 84% cost reduction](https://datastruct.tech/post/sap-to-odoo-vibecoded-migration)
+- **Book a 30-min technical diagnostic:** [cal.com/oleg-popov-sjwko9/30min](https://cal.com/oleg-popov-sjwko9/30min)
+- **Questions / partnership:** info@datastruct.tech
+- **Companion:** [parqcast](https://github.com/datastructsro/parqcast) (the exporter that uploads here) · [foreqcast](https://github.com/datastructsro/foreqcast) · [parqcast-lambda](https://github.com/datastructsro/parqcast-lambda)
+
 ## License
 
 Apache-2.0
